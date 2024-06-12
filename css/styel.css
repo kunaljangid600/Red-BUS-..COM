@@ -17,7 +17,7 @@ header{
     display: flex;
     position: sticky;
     top: 0px;
-    left: 0px;
+        left: 0px;
     z-index: 99999;
     /* gap: 50px; */
 }
@@ -71,12 +71,12 @@ figure{
     background-color: white;
     border-radius: 10px;
     position: relative;
-    transition: 1s;
+    transition: 0.4s;
 
 }
 .second-icon1 img{
     filter: brightness(0.1);
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .second-icon1:hover{
@@ -123,7 +123,7 @@ figure{
     font-size:20px;
     margin-right: 4px;
     border-radius: 15px;
-    transition: 1s;
+    transition: 0.4s;
 }
 .cont:hover{
     background-color:#e0e0e0 ;
@@ -137,7 +137,7 @@ figure{
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    transition: 1s;
+    transition: 0.4s;
 }
 .cont2:hover{
     background-color:#e0e0e0 ;
@@ -257,7 +257,8 @@ figure{
     align-items: center;
     justify-content: right;
     padding-right: 20px;
-    transition: 1s;
+    transition: 0.4s;
+    cursor: pointer;
 }
 .button .b:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -284,7 +285,7 @@ figure{
     padding-top: 5px;
     height: 150px;
     width: 25%;
-    background-color: #1f50a9;
+    background: linear-gradient(90deg, rgba(49,49,152,1) 37%, rgba(76,80,203,1) 82%, rgba(76,90,199,1) 100%);
     margin: 10px 20px;
     border-radius: 10px;
     position: relative;
@@ -999,7 +1000,8 @@ details p{
     .fot-part {
         /* height: 100vh; */
         width: 100%;
-        background-color: #f7f7f7;
+        background-color: #fafafa;
+        /* border: 2px solid red; */
     }
 
     .row-fot {
